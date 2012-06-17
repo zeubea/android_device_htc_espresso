@@ -33,7 +33,7 @@ $(call inherit-product, device/htc/espresso/espresso.mk)
 PRODUCT_DEVICE := espresso
 PRODUCT_NAME := cm_espresso
 PRODUCT_BRAND := Htc
-PRODUCT_MODEL := espesso
+PRODUCT_MODEL := espresso
 
 #Set build fingerprint / ID / Prduct Name ect.
 

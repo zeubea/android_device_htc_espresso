@@ -242,5 +242,5 @@ $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 $(call inherit-product, device/htc/common/common.mk)
 $(call inherit-product, build/target/product/full_base.mk)
 
-PRODUCT_NAME := generic_latte
-PRODUCT_DEVICE := latte
+PRODUCT_NAME := generic_espresso
+PRODUCT_DEVICE := espresso
