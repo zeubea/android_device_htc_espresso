@@ -191,7 +191,7 @@ PRODUCT_PACKAGES += \
     audio.primary.latte \
     audio_policy.latte \
     audio.a2dp.default \
-    gps.espresso \
+    gps.latte \
     libmm-omxcore \
     libOmxCore \
     libstagefrighthw \
