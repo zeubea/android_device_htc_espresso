@@ -18,7 +18,7 @@
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := latte
+PRODUCT_RELEASE_NAME := espresso
 
 TARGET_BOOTANIMATION_NAME := vertical-320x480
 
@@ -34,6 +34,8 @@ PRODUCT_DEVICE := espresso
 PRODUCT_NAME := cm_espresso
 PRODUCT_BRAND := Htc
 PRODUCT_MODEL := espresso
+PRODUCT_VERSION_DEVICE_SPECIFIC := -UNOFFICIAL-BETA4
+CM_RELEASE := true
 
 #Set build fingerprint / ID / Prduct Name ect.
 
