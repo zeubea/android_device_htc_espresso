@@ -190,7 +190,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/espresso/prebuilt/modules/sdio.ko:system/lib/modules/sdio.ko \
     device/htc/espresso/prebuilt/modules/tiwlan_drv.ko:system/lib/modules/tiwlan_drv.ko \
-    device/htc/espresso/prebuilt/modules/tiap_drv.ko:system/lib/modules/tiap_drv.ko
+    device/htc/espresso/prebuilt/modules/tiap_drv.ko:system/lib/modules/tiap_drv.ko \
+    device/htc/legend/prebuilt/modules/tun.ko:system/lib/modules/tun.ko
 
 PRODUCT_PACKAGES += \
     librs_jni \
