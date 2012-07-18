@@ -43,6 +43,16 @@ PRODUCT_COPY_FILES += \
     device/htc/espresso/prebuilt/usr/keylayout/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
     device/htc/espresso/prebuilt/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl
 
+# Keylayouts -- espresso especific
+PRODUCT_COPY_FILES += \
+    device/htc/espresso/prebuilt/usr/keylayout/latte-keypad-v2.kl:system/usr/keylayout/latte-keypad-v2.kl \
+    device/htc/espresso/prebuilt/usr/keylayout/synaptics-rmi-touchscreen.kl:system/usr/keylayout/synaptics-rmi-touchscreen.kl
+
+# Keychars --  espresso especific
+PRODUCT_COPY_FILES += \
+    device/htc/espresso/prebuilt/usr/keychars/latte-keypad-v2.kcm:system/usr/keychars/latte-keypad-v2.kcm
+
+
 
 # Input device calibration files
 PRODUCT_COPY_FILES += \
